@@ -15,7 +15,7 @@
 		EABF08041E2E15B200DF56EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABF08021E2E15B200DF56EC /* LaunchScreen.storyboard */; };
 		EABF080F1E2E15B200DF56EC /* NavWavesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF080E1E2E15B200DF56EC /* NavWavesTests.m */; };
 		EABF081A1E2E15B200DF56EC /* NavWavesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF08191E2E15B200DF56EC /* NavWavesUITests.m */; };
-		EADF1E6C1E8370120083D7DD /* YLLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF1E6B1E8370120083D7DD /* YLLView.m */; };
+		EADF1E781E837FEB0083D7DD /* YLLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF1E771E837FEB0083D7DD /* YLLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		EABF08151E2E15B200DF56EC /* NavWavesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavWavesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABF08191E2E15B200DF56EC /* NavWavesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavWavesUITests.m; sourceTree = "<group>"; };
 		EABF081B1E2E15B200DF56EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EADF1E6A1E8370120083D7DD /* YLLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLView.h; sourceTree = "<group>"; };
-		EADF1E6B1E8370120083D7DD /* YLLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLView.m; sourceTree = "<group>"; };
+		EADF1E761E837FEB0083D7DD /* YLLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLView.h; sourceTree = "<group>"; };
+		EADF1E771E837FEB0083D7DD /* YLLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		EABF07E81E2E15B100DF56EC = {
 			isa = PBXGroup;
 			children = (
+				EADF1E751E837FEB0083D7DD /* YLLView */,
 				EABF07F31E2E15B200DF56EC /* NavWaves */,
 				EABF080D1E2E15B200DF56EC /* NavWavesTests */,
 				EABF08181E2E15B200DF56EC /* NavWavesUITests */,
@@ -104,7 +105,6 @@
 		EABF07F31E2E15B200DF56EC /* NavWaves */ = {
 			isa = PBXGroup;
 			children = (
-				EADF1E691E8370120083D7DD /* YLLView */,
 				EABF07F71E2E15B200DF56EC /* AppDelegate.h */,
 				EABF07F81E2E15B200DF56EC /* AppDelegate.m */,
 				EABF07FA1E2E15B200DF56EC /* ViewController.h */,
@@ -144,11 +144,11 @@
 			path = NavWavesUITests;
 			sourceTree = "<group>";
 		};
-		EADF1E691E8370120083D7DD /* YLLView */ = {
+		EADF1E751E837FEB0083D7DD /* YLLView */ = {
 			isa = PBXGroup;
 			children = (
-				EADF1E6A1E8370120083D7DD /* YLLView.h */,
-				EADF1E6B1E8370120083D7DD /* YLLView.m */,
+				EADF1E761E837FEB0083D7DD /* YLLView.h */,
+				EADF1E771E837FEB0083D7DD /* YLLView.m */,
 			);
 			path = YLLView;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EADF1E6C1E8370120083D7DD /* YLLView.m in Sources */,
+				EADF1E781E837FEB0083D7DD /* YLLView.m in Sources */,
 				EABF07FC1E2E15B200DF56EC /* ViewController.m in Sources */,
 				EABF07F91E2E15B200DF56EC /* AppDelegate.m in Sources */,
 				EABF07F61E2E15B200DF56EC /* main.m in Sources */,
