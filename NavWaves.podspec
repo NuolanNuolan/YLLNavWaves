@@ -8,12 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――
 
   s.name         = 'NavWaves'
   s.version      = '0.0.1'
@@ -79,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'https://github.com/NuolanNuolan/YLLNavWaves.git', :tag => s.vrsion.to_s }
+  s.source       = { :git => 'https://github.com/NuolanNuolan/YLLNavWaves.git', :tag => '0.0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'YLLView/**/*.{h,m}'
+  s.source_files  = 'YLLNavWaves/**/*.{h,m}'
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
