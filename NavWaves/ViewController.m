@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor colorWithRed:0 green:172/255.0 blue:238/255.0 alpha:1.00];
     [self.navigationController.navigationBar addSubview:self.headerView];
     [self.navigationController.navigationBar sendSubviewToBack:self.headerView];
     // Do any additional setup after loading the view, typically from a nib.

@@ -62,9 +62,9 @@
 
 - (void)initData{
     //初始化
-    self.waveSpeed = 1;
-    self.waveCurvature = 1.8;
-    self.waveHeight = 2;
+    self.waveSpeed = 0.7;
+    self.waveCurvature = 2;
+    self.waveHeight = 3;
     self.realWaveColor = [UIColor whiteColor];
     self.maskWaveColor = [[UIColor whiteColor] colorWithAlphaComponent:0.4];
     
@@ -135,11 +135,11 @@
     CGFloat width = CGRectGetWidth(self.frame);
     CGFloat height = self.waveHeight;
     
-    //真实浪
+    
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathMoveToPoint(path, NULL, 0, height);
     CGFloat y = 0.f;
-    //遮罩浪
+    
     CGMutablePathRef maskpath = CGPathCreateMutable();
     CGPathMoveToPoint(maskpath, NULL, 0, height);
     CGFloat maskY = 0.f;
@@ -174,11 +174,11 @@
 }
 
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
 
 @end
